@@ -9,7 +9,7 @@ body{
     grid-template:
     "nav" 100px
     "content" 500px
-    "footer" 150px/412px;
+    "footer" 100px/412px;
     justify-content: center;
     align-items: center;
     background-color:#242424;
