@@ -9,31 +9,57 @@
 </head>
 
 <body>
+    <nav>
+        <img src="Imagenes/Skraken.svg" alt="logo">
+    </nav>
     <main>
-        <h1>Calculadora web</h1>
-        <div class="BoxInput1">
-            <input id="Ingreso1" type="text">
-            <input id="Ingreso2" type="text">
-        </div>
-        <div class="BoxOperaciones">
-            <button class="Basica" onclick="suma()">+</button>
-            <button class="Basica" onclick="resta()">-</button>
-            <button class="Basica" onclick="multiplicacion()">*</button>
-            <button class="Basica" onclick="division()">/</button>
-            <button class="Basica" onclick="raizCuadrada()">√</button>
-            <button class="Basica" onclick="potencia()">^</button>
-            <button onclick="valorAbsoluto()">Valor Absoluto</button>
-        </div>
-        <div class="BoxInput2">
-            <input id="Ingreso3" type="text" value="">
-        </div>
-        <div class="BoxRedondeos">
-            <button onclick="random()">Random</button>
-            <button onclick="round()">Round</button>
-            <button onclick="floor()">Floor</button>
-            <button onclick="ceil()">Ceil</button>
-        </div>
+        <section>
+            <h1>Calculadora</h1>
+            <div class="BoxInput1">
+                <input id="Ingreso1" type="text">
+                <input id="Ingreso2" type="text">
+            </div>
+            <div class="MainContainer">
+                <div class="BoxOperaciones">
+                    <div class="BoxOperaciones2">
+                        <button class="Basica" onclick="suma()">+</button>
+                        <button class="Basica" onclick="resta()">-</button>
+                    </div>
+                    <button class="Basica2" onclick="raizCuadrada()">Raiz</button>
+                    <button class="Basica2" onclick="potencia()">Potencia</button>
+                </div>
+                <div class="BoxOperaciones">
+                    <div class="BoxOperaciones2">
+                        <button class="Basica" onclick="multiplicacion()">*</button>
+                        <button class="Basica" onclick="division()">/</button>
+                    </div>
+                    <button class="Basica2" onclick="valorAbsoluto()">Valor Absoluto</button>
+                    <button class="Basica2" onclick="random()">Random</button>
+                </div>
+                <div class="BoxInput2">
+                    <label for="Ingreso3">Resultado</label>
+                    <input id="Ingreso3" type="text" value="">
+                </div>
+                <div class="BoxRedondeos">
+                    <button class="Basica2" onclick="round()">Round</button>
+                    <button class="Basica2" onclick="floor()">Floor</button>
+                    <button class="Basica2" onclick="ceil()">Ceil</button>
+                </div>
+        </section>
     </main>
+    <footer>
+        <img class="Logo" src="Imagenes/Skraken.svg" alt="Logo">
+        <div class="BoxContacto">
+            <div class="BoxAlter">
+                <img src="Imagenes/mail.svg" alt="email">
+                <label for="">hheslaba@gmail.comm</label>
+            </div>
+            <div class="BoxAlter">
+                <img src="Imagenes/Phone call.svg" alt="phone">
+                <label for="">238-187-64-61</label>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="index.js"></script>
 
