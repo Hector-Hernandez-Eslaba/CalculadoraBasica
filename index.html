@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculadora Web</title>
+</head>
+
+<body>
+    <main>
+        <h1>Calculadora web</h1>
+        <div class="BoxInput1">
+            <input id="Ingreso1" type="text">
+            <input id="Ingreso2" type="text">
+        </div>
+        <div class="BoxOperaciones">
+            <button class="Basica" onclick="suma()">+</button>
+            <button class="Basica" onclick="resta()">-</button>
+            <button class="Basica" onclick="multiplicacion()">*</button>
+            <button class="Basica" onclick="division()">/</button>
+            <button class="Basica" onclick="raizCuadrada()">√</button>
+            <button class="Basica" onclick="potencia()">^</button>
+            <button onclick="valorAbsoluto()">Valor Absoluto</button>
+        </div>
+        <div class="BoxInput2">
+            <input id="Ingreso3" type="text" value="">
+        </div>
+        <div class="BoxRedondeos">
+            <button onclick="random()">Random</button>
+            <button onclick="round()">Round</button>
+            <button onclick="floor()">Floor</button>
+            <button onclick="ceil()">Ceil</button>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+
+</html>
